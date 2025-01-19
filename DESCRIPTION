@@ -1,0 +1,21 @@
+Package: StratMRAlgo
+Title: Stratified MR Analyses
+Version: 1.0.0
+Authors@R: 
+    person("Josef", "Graf", "josef@mrvillage.dev", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-5530-6790"))
+Description: Performs analyses based on the stratified MR analysis method.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Collate:
+    sample_data.r
+    preprocessing.r
+    mr.r
+    lib.r
+Depends:
+    data.table,
+    dplyr,
+    metafor
