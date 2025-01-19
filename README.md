@@ -68,7 +68,7 @@ Another optional input file, a .txt file with diagnostically-related variables c
 The following steps are performed by the <code>preprocess()</code> function. Sample input files can be obtained using <code>generate_sample_data()</code>. 
 
 <div align="center">
-    <img src="https://github.com/GMELab/StratMRAlgo/blob/main/preprocess.png" alt="Preprocess Steps" width="600">
+    <img src="https://github.com/GMELab/StratMRAlgo/blob/master/preprocess.png" alt="Preprocess Steps" width="600">
 </div>
 <br>
 
@@ -129,7 +129,7 @@ The <code>algo()</code> function automates the algorithm as described in our mai
 *Algorithm for Binary Outcomes*
 <br>
 <div align="center">
-    <img src="https://github.com/GMELab/StratMRAlgo/blob/main/binary.png" alt="Binary Algorithm" width="550">
+    <img src="https://github.com/GMELab/StratMRAlgo/blob/master/binary.png" alt="Binary Algorithm" width="550">
 </div>
 
 <br>
@@ -137,7 +137,7 @@ The <code>algo()</code> function automates the algorithm as described in our mai
 *Algorithm for Continuous Outcomes*
 <br>
 <div align="center">
-    <img src="https://github.com/GMELab/StratMRAlgo/blob/main/continuous.png" alt="Continuous Algorithm" width="850">
+    <img src="https://github.com/GMELab/StratMRAlgo/blob/master/continuous.png" alt="Continuous Algorithm" width="850">
 </div>
 <br>
 
