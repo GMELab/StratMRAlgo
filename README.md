@@ -1,6 +1,6 @@
 # StratMRAlgo
 
-StratMRAlgo is a stratified Mendelian randomization (MR) algorithm designed to identify effect modifiers of causal relationships, accomodating both binary and continuous outcomes. The algorithm emerged as a heuristic solution following the evaluation of five stratified MR methods across a total of 63 simulation scenarios, which considered forms of collider bias, confounding, mediation, and nonlinear relationships between variables. The derivation of the algorithm and its scope of use can be found in detail in our main manuscript.
+StratMRAlgo is a stratified Mendelian randomization (MR) algorithm designed to identify effect modifiers of causal relationships, accomodating both binary and continuous outcomes. The algorithm emerged as a heuristic solution following the evaluation of five stratified MR methods across a total of 63 simulation scenarios, which considered forms of collider bias, confounding, mediation, and nonlinear relationships between variables. The derivation of the algorithm and its scope of use can be found in detail in our [main manuscript](#8).
 
 This R package automates the algorithm and the five MR methods tested using four functions: <code>preprocess()</code>, <code>mr()</code>, <code>algo()</code>, and <code>all_methods()</code>.
 
@@ -124,7 +124,7 @@ If an output directory is defined, additional metadata with the excluded combina
 
 ### Part 2: Algorithm <a name="3"></a>
 
-The <code>algo()</code> function automates the algorithm as described in our main manuscript. First, all the filtered combinations outputted by <code>preprocess()</code> are evaluated using the main DR by X method. Next, all Bonferroni significant combinations are evaluated as per the steps in either diagram below. 
+The <code>algo()</code> function automates the algorithm as described in our [main manuscript](#8). First, all the filtered combinations outputted by <code>preprocess()</code> are evaluated using the main DR by X method. Next, all Bonferroni significant combinations are evaluated as per the steps in either diagram below. 
 
 *Algorithm for Binary Outcomes*
 <br>
@@ -276,6 +276,4 @@ GNU General Public License v3.0
 Any queries pertaining to the StratMRAlgo R package or methodological framework can be addressed to either: Alice Man (mana3@mcmaster.ca) or Guillaume Paré (pareg@mcmaster.ca).
 
 ## Citation <a name="8"></a>
-Citation will be made available in the future.
-
-
+Man A, Knüsel L, Graf J, Lali R, Le A, Di Scipio M, Mohammadi-Shemirani P, Chong M, Pigeyre M, Kutalik Z, Paré G. Identification of effect modifiers using a stratified Mendelian randomization algorithmic framework. European journal of epidemiology. 2025 Mar 12:1-22. https://doi.org/10.1007/s10654-025-01213-0
