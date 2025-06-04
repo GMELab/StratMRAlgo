@@ -1,9 +1,11 @@
 Package: StratMRAlgo
 Title: Stratified MR Analyses
 Version: 1.0.0
-Authors@R: 
-    person("Josef", "Graf", "josef@mrvillage.dev", role = c("aut", "cre"),
+Authors@R: c(
+    person("Alice", "Man", "mana3@mcmaster.ca", role = c("aut", "cre")),
+    person("Josef", "Graf", "josef@mrvillage.dev", role = "aut",
            comment = c(ORCID = "0009-0001-5530-6790"))
+    )
 Description: Performs analyses based on the stratified MR analysis method.
 License: use_gpl3_license()
 Encoding: UTF-8
