@@ -90,7 +90,7 @@ combinations <- StratMRAlgo::preprocess(
 
 The function outputs a list object containing two elements: <code>$binary</code> and <code>$continuous</code> corresponding to binary_comb.txt and continuous_comb.txt respectively if output directories are specified. Both data frames contain the filtered exposure, stratifying variable, and outcome combinations in each row with their biases, overall causal estimates, and the instrument strength. The data in the two data frames are summarized below:
 
-| Column Name | Defintion | Data Frame(s) |
+| Column Name | Definition | Data Frame(s) |
 | ------ | ------ | ------ |
 |  |  |  |
 | EXP | Exposure name | <code>$binary</code> and <code>$continuous</code> |
@@ -165,7 +165,7 @@ algo <- StratMRAlgo::algo(
 
 The function outputs a list object containing two elements: <code>$binary_results</code> and <code>$continuous_results</code> corresponding to binary_results.csv and continuous_results.csv respectively if output directories are specified. Both data frames contain the filtered exposure, stratifying variable, and outcome combinations in each row with their effect modification coefficients, p-values, and standard errors calculated using DR by X and any subsequent stratified MR methods, as well as whether they were determined to be overall Bonferroni significant by the algorithm. Data from <code>preprocess()</code> outputs pertaining to each combination remain in the two data frames. New variables which have not yet been defined in [Part 1](#2) are summarized below:
 
-| Column Name | Defintion | Data Frame(s) |
+| Column Name | Definition | Data Frame(s) |
 | ------ | ------ | ------ |
 |  |  |  |
 | SIGNIFICANT | TRUE if determined to be overall significant by the algorithm; FALSE if determined not to be overall significant by the algorithm; INCONCLUSIVE otherwise | <code>$binary_results</code> and <code>$continuous_results</code> |
@@ -208,7 +208,7 @@ all_methods <- StratMRAlgo::all_methods(
 
 The function outputs a list object containing two elements: <code>$binary_results</code> and <code>$continuous_results</code> corresponding to binary_results_all.csv and continuous_results_all.csv respectively if output directories are specified. Both data frames contain the filtered exposure, stratifying variable, and outcome combinations in each row with their effect modification coefficients, p-values, and standard errors calculated using each method, as well as whether they were determined to be likely biased based on the thresholds shown in Table 2 of the manuscript. Data from preprocess() outputs pertaining to each combination remain in the two data frames. New variables which have not yet been defined in [Part 1](#2) are summarized below:
 
-| Column Name | Defintion | Data Frame(s) |
+| Column Name | Definition | Data Frame(s) |
 | ------ | ------ | ------ |
 |  |  |  |
 | DR_BY_X_P | P-value for the effect modification coefficient calculated using DR by X | <code>$binary_results</code> and <code>$continuous_results</code> |
